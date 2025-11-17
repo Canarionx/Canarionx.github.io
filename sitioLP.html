@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Canarias Hoy: Ocio, Fútbol y Chollos — Noticias y Guías</title>
+  <meta name="description" content="Noticias, guías y ofertas sobre ocio, entretenimiento y fútbol en Canarias. Ideas, planes y contenidos que gustan a la gente." />
+  <meta name="keywords" content="Canarias, Gran Canaria, UD Las Palmas, entretenimiento, chollos, fútbol, guías, noticias" />
+  <link rel="canonical" href="https://tudominio.com/">
+  <meta name="author" content="Tu Nombre o Marca">
+
+  <!-- JSON-LD básico (adaptar) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Canarias Hoy",
+    "url":"https://tudominio.com/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://tudominio.com/?s={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <style>
+    /* Reset sencillo */
+    :root{--accent:#ffcc00;--dark:#0f1724;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;color:var(--dark);line-height:1.5}
+    header{background:linear-gradient(90deg,var(--accent),#ffd966);padding:18px}
+    .wrap{max-width:1100px;margin:0 auto;padding:20px}
+    .logo{font-weight:800;font-size:20px}
+    nav{margin-top:8px}
+    nav a{margin-right:12px;color:rgba(0,0,0,.7);text-decoration:none}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center}
+    .card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(15,23,36,.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .post-thumb{height:150px;border-radius:8px;background-size:cover;background-position:center}
+    h1,h2,h3{margin:0 0 8px}
+    .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+    .excerpt{color:#111}
+    .sidebar .card{position:sticky;top:18px}
+    footer{padding:24px;background:#f8fafc;color:var(--muted);margin-top:36px}
+    .btn{display:inline-block;padding:10px 14px;background:var(--dark);color:#fff;border-radius:8px;text-decoration:none}
+    @media(min-width:800px){.hero{grid-template-columns:2fr 1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">Canarias Hoy</div>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/futbol">Fútbol</a>
+        <a href="/ocio">Ocio</a>
+        <a href="/chollos">Chollos</a>
+        <a href="/contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" role="main">
+    <section class="hero" aria-label="Titulares">
+      <div>
+        <article class="card">
+          <h1>Plan perfecto en Gran Canaria: 7 actividades para este fin de semana</h1>
+          <div class="meta">Por Redacción • 17 noviembre 2025 • Gran Canaria</div>
+          <p class="excerpt">Te proponemos 7 planes —desde rutas por la isla hasta eventos deportivos— para aprovechar el fin de semana con amigos y familia.</p>
+          <a class="btn" href="#post1">Leer artículo</a>
+        </article>
+
+        <div style="margin-top:18px" class="grid">
+          <article class="card" id="post2">
+            <div class="post-thumb" style="background-image:url('https://placehold.co/600x400')"></div>
+            <h3>UD Las Palmas: Análisis del último partido y claves</h3>
+            <div class="meta">Por Diego</div>
+            <p class="excerpt">Un repaso a lo que funcionó y lo que debe mejorar el equipo para la próxima jornada.</p>
+            <a href="#" class="btn">Leer</a>
+          </article>
+
+          <article class="card" id="post3">
+            <div class="post-thumb" style="background-image:url('https://placehold.co/600x400')"></div>
+            <h3>Los 10 chollos del mes: entradas, excursiones y restaurantes</h3>
+            <div class="meta">Por Marta</div>
+            <p class="excerpt">Ofertas seleccionadas para disfrutar en familia sin gastar mucho.</p>
+            <a href="#" class="btn">Ver chollos</a>
+          </article>
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Suscríbete</h3>
+          <p class="meta">Recibe 3 planes semanales en tu email</p>
+          <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="tu@correo.com" required style="width:100%;padding:8px;margin-bottom:8px;border-radius:6px;border:1px solid #e6e9ee">
+            <button class="btn" type="submit">Suscribirme</button>
+          </form>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Publicidad</h3>
+          <p class="meta">Aquí irá un bloque de anuncios AdSense</p>
+          <!-- EJEMPLO: pega tu código AdSense aquí cuando la cuenta esté activa -->
+          <!-- <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-XXXXXXXXXXXX"
+               data-ad-slot="NNNNNNNN"
+               data-ad-format="auto"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+          <div style="height:120px;background:#f1f5f9;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)">Banner 300×250</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Ejemplos de artículos (páginas internas) -->
+    <section style="margin-top:22px">
+      <article id="post1" class="card">
+        <h2>Plan perfecto en Gran Canaria: 7 actividades para este fin de semana</h2>
+        <div class="meta">Por Redacción • 17 noviembre 2025</div>
+        <p>Contenido ejemplo: ruta en coche por el sur, paseo por Vegueta, partido en el Estadio, ruta gastronómica, picnic en la playa, visita cultural y una noche de tapas con música en vivo. Añade fotos, mapas y enlaces a reservas.</p>
+        <h3>Mapa y recomendaciones</h3>
+        <p>Añade un mapa con Google Maps embebido y enlaces a empresas locales —esto aumenta la utilidad y el tiempo de permanencia.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="wrap">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>&copy; 2025 Canarias Hoy · <a href="/privacidad">Política de privacidad</a></div>
+      <div>Contacto: <a href="mailto:tuemail@dominio.com">tuemail@dominio.com</a></div>
+    </div>
+  </footer>
+
+  <!-- Sugerencias y notas: 
+       - Cambia 'tudominio.com' por tu dominio real.
+       - Sube imágenes reales y meta-imagenes (og:image) para mejores shares en redes.
+       - Añade /privacidad y /aviso-legal antes de solicitar AdSense.
+       - Cuando tu cuenta AdsSense esté aprobada, pega el script en <head> y los bloques de <ins> donde quieras mostrar anuncios. -->
+</body>
+</html>
